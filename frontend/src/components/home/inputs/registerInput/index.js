@@ -6,7 +6,7 @@ export default function RegisterInput({ placeholder, bottom, ...props }) {
   const [field, meta] = useField(props);
   const desktopView = useMediaQuery({ query: '(min-width: 850px)' });
   return (
-    <div className="input_wrap">
+    <div className="input_wrap register_input_wrap">
       {meta.touched && meta.error && !bottom && (
         <div
           className={

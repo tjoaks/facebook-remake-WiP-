@@ -6,6 +6,7 @@
   align-items: center;
 }
 .input_wrap input {
+  position: relative;
   outline: none;
   border: 1px solid var(--bg-third);
   background: var(--bg-primary);

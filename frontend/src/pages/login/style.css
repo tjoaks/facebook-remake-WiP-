@@ -94,9 +94,10 @@
   flex-direction: column;
   gap: 10px;
   padding-bottom: 10px;
+  margin-bottom: 10px;
   border-bottom: 1px solid var(--bg-third);
 }
-.register-header i {
+.register_header i {
   position: absolute;
   right: 0;
   cursor: pointer;
@@ -174,7 +175,45 @@
 }
 /*----------REGISTER-----------*/
 
+/*-----Date of birth and gender errors */
+
+.reg_grid .input_error {
+  width: 300px;
+  position: absolute;
+  top: 70px;
+}
+
+/*-----Date of birth and gender errors */
+
+/* error and success text */
+.error_text {
+  color: red;
+  font-size: 14px;
+}
+
+.success_text {
+  color: green;
+  font-size: 14px;
+}
+/* error and success text */
+
 /* Media queries */
+
+@media (min-width: 539px) {
+  .login_footer_wrap {
+    max-width: 520px;
+  }
+  .register {
+    width: 400px;
+  }
+  .reg_line {
+    flex-direction: row;
+  }
+  .reg_grid select,
+  .reg_grid label {
+    width: 110px;
+  }
+}
 
 @media (min-width: 850px) {
   .login_wrap {

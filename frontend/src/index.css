@@ -64,3 +64,27 @@ a {
   background: rgba(255, 255, 255, 0.8);
   z-index: 99;
 }
+
+/* ---- hovers */
+.hover1:hover {
+  background: var(--bg-secondary);
+}
+.hover2:hover {
+  background: var(--bg-third);
+}
+/*-----hovers ----*/
+.card {
+  height: 500px;
+  width: 500px;
+  background: red;
+}
+
+/*---Scrollbar---*/
+.scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #aeaeafa1;
+  border-radius: 5px;
+}
+/*---Scrollbar---*/
